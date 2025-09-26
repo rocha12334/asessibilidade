@@ -1,11 +1,11 @@
 .cabecalho {
-    pasition: absolute;
+    position: absolute;
     top: -2.5em;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
     width: 100%;
-    border-bottom: 1px soolid #103d4a;
+    border-bottom: 1px solid #103d4a;
     padding-bottom: .5em;
 }
 
@@ -31,11 +31,11 @@
 .cabecalho-nav-item {
     text-decoration: inline-block;
     line-height: 2;
-    margin: 0 .95em;
+    margin: 0 .5em;
+    font-size: .95em;
 }
 
 .cabecalho-nav-item a {
-    text-decoration: nome;
+    text-decoration: none;
     color: #fff;
-    font-family: 'Open Sans',serif;
-}
+    font-family: 'Open Sans', serif;
