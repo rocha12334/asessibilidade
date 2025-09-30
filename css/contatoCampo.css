@@ -61,4 +61,60 @@
     border-radius: 8px;
     border: 2px solid #ccc;
     outline: 0;
+
+}
+
+.contatoCampo imput:focus,
+.contatoCampo textarea:focus {
+    border: 2px #222;
+}
+
+.contatoCampo-campoDesabilitado {
+    background-color: #ddd;
+}
+
+.contatoCampo-msg,
+.formCotato-validacao {
+    margin-left: 4px;
+    margin-top: 4px;
+    font-size: 9em;
+    font-weight: bold;
+    color: #FD1242;
+    display: inline-block;
+}
+
+.contatoCampo .contatoCampo--validouFoi{
+    border: 2px solid #219653;
+    background-color: #fff;
+    pisition: relative;
+}
+
+.contatoCampo .contatoCampo--validouErro {
+    border: 2px solid #ff0000;
+    background-color: #fff;
+    position: relative;
+}
+
+.contatoCampo--sucesso:before {
+    content: '';
+    display: inline-block;
+    width: 33px;
+    hesigth: 32px;
+    position: absolute;
+    z-index: 1;
+    right: .4em;
+    transform: translate(112%) scale(.65);
+    background-image: url(../img/validacao-sucesso.png);
+}
+
+.contatoCampo--erro:before {
+   content: '';
+    display: inline-block;
+    width: 33px;
+    hesigth: 32px;
+    position: absolute;
+    z-index: 1;
+    right: .4em;
+    transform: translate(112%) scale(.65);
+    background-image: url(../img/validacao-erro.png);
 }
