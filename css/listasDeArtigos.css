@@ -1,0 +1,48 @@
+.listaDeAratigos-artigo {
+    text-align: left;
+    padding-bottom: 2em;
+    max-width: 815px;
+    display: inline-block;
+    white-space: normal;
+}
+
+.listaDeAratigos {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.listaDeAratigos-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: none;
+}
+
+.listaDeAratigos-item:not(:target):first-child {
+    display: inline-block;
+}
+
+.listaDeAratigos-item:target {
+    display: inline-block;
+}
+
+.listaDeAratigos-artigo-img {
+    width: 100%;
+    display: block;
+}
+
+/*Apenas para diferciar as imagens*/
+ .listaDeAratigos-item:nth-of-type(2) img{
+    filter: sepia(.7);
+ }
+
+
+ .listaDeAratigos-item:nth-of-type(3) img{
+    filter: hue-rotate(10deg) saturate(1);
+ }
+.listaDeAratigos-artigo-titulo {
+    font-family: 'Montserrat', sans-serif;
+    margin: .7em 0;
+    font-size: 1.2em;
+}
