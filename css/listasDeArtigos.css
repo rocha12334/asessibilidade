@@ -46,3 +46,20 @@
     margin: .7em 0;
     font-size: 1.2em;
 }
+
+
+.listaDeAratigos-slider {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.listaDeAratigos-slider li{
+    display: inline-block;
+}
+
+.listaDeAratigos-slider-item {
+    text-indent: -9999px;
+    display: inline-block;
+    overflow: hidden;
+    
+}
