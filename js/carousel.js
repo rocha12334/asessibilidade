@@ -11,5 +11,4 @@ btns.forEach(function(btn) {
         })
 
         this.classList.add('listaDeArtigo-slider-item--ativo')
-        })
-
+        })      
